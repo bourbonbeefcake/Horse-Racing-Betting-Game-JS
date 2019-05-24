@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Horse Racing</title>
+		<link rel="stylesheet" href="game.css" />
+		<script src="game.js"></script>
+	</head>
+
+	<body>
+
+		<div id="horse1" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div id="horse2" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div id="horse3" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div id="horse4" class="horse standRight">
+			<div class="rider">
+				<div class="head">
+				</div>
+
+				<div class="body">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="track">
+			<div id="startline">
+
+			</div>
+			<div class="inner">
+				<div id="start">
+					Start Race
+				</div>
+
+				<div id="bet">
+					<div id="console"></div> <!-- CREATED FOR ERROR LOGGING -->
+					<p>You currently have <span id="funds">100</span></p>
+					<label>Bet Amount  (£)</label>
+					<input id="amount" />
+					<label>Bet on horse:</label>
+					<select id="bethorse">
+						<option value="horse1">White</option>
+						<option value="horse2">Blue</option>
+						<option value="horse3">Green</option>
+						<option value="horse4">Brown</option>
+					</select>
+					<div id="rounds">   <!-- CREATED FOR THE ROUNDS -->
+						<label>Number of rounds left:  <span id="roundsLeft">0</span></label>
+						<label>Rounds: </label>
+						<input id="roundsGiven" />
+					</div>
+				</div>
+
+
+
+
+				<img src="images/tree.png" class="tree" />
+
+
+
+			<table id="results">
+				<thead>
+				<tr>
+					<th>Results</th>
+					<th></th>
+					<th>Odds</th>
+				</tr>
+				</thead>
+				<tr>
+					<td>1st</td> <!-- 0 -->
+					<td class="horse1"></td> <!-- 1 -->
+					<td class="odds"></td> <!-- 2 -->
+				</tr>
+				<tr>
+					<td>2nd</td> <!-- 3 -->
+					<td class="horse2"></td> <!-- 4 -->
+					<td class="odds"></td> <!-- 5 -->
+				</tr>
+				<tr>
+					<td>3rd</td> <!-- 6 -->
+					<td class="horse3"></td> <!-- 7 -->
+					<td class="odds"></td> <!-- 8 -->
+				</tr>
+				<tr>
+					<td>4th</td> <!-- 9 -->
+					<td class="horse4"></td> <!-- 10 -->
+					<td class="odds"></td> <!-- 11 -->
+				</tr>
+			</table>
+</div>
+
+		</div>
+
+	</body>
+</html>
