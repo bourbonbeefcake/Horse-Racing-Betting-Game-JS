@@ -1,6 +1,8 @@
 # Horse Racing/Betting Game JS
 The task that is given in this BSc first year - second semester assignment, is to build the logic of a web based horse race/betting game with JavaScript.
 <br><br>
+![](https://github.com/antoniosTriant/Horse-Racing-Betting-Game-JS/blob/master/documentation/images/Screenshot_1.jpg)
+<br><br>
 ## Design
 
 ***
@@ -32,7 +34,8 @@ Knowing 0,0 are the top left coordinates of the window, by `window.innerWidth `,
 When a horse takes a turn, `giveBoost()` function is invoked which in turn invokes the `shouldBoost()` function. `shouldBoost()` function finds a number from 0 to 100; if that number is smaller than the boost chance, then the horse gets a boost. Note that getting a boost has a small possibility to reduce speed instead of increasing it. When a horse gets a boost, its boost chance is decreased by 4.<br>
 The horse gets a new speed if not getting a boost from 10 to 18 and from 15 to 21 if it gets a boost. Flowchart below:
 <br><br>
-
+![](https://github.com/antoniosTriant/Horse-Racing-Betting-Game-JS/blob/master/documentation/images/flowchartBoosting.png)
+<br><br>
 ## Horse Odds
 
 Odds on the first race after the page is refreshed are generated based on the boost chance of each horse as shown in the following table:
